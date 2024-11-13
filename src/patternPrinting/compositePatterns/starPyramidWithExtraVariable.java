@@ -29,11 +29,10 @@ public class starPyramidWithExtraVariable {
 }
 
 /*
-    *
-   * *
-  * * *
-  * * * *
- * * * * *
 
+     *
+   * * *
+  * * * * *
+* * * * * * *
 
- * */
+*/
