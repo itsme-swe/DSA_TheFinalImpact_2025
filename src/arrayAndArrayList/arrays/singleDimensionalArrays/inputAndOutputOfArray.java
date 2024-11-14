@@ -1,4 +1,4 @@
-package arrayAndArrayList.arrays;
+package arrayAndArrayList.arrays.singleDimensionalArrays;
 
 import java.util.Scanner;
 
