@@ -21,5 +21,10 @@ public class creatingArrayList {
         }
 
         // Output: 10 2 20 15
+
+        System.out.println();
+        //3️⃣ modifying element at given indexValue
+        lt.set(2,50);
+        System.out.println(lt); // Output: [10, 2, 50, 15]
     }
 }
