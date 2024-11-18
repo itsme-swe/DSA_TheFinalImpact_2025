@@ -28,3 +28,7 @@ public class sortArrayInZeroAndOneOptimized {
         System.out.println();
     }
 }
+
+/*
+* This is one pass solution using two pointer approach. In this we question we use single loop to solve question.
+* */
