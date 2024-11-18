@@ -30,5 +30,5 @@ public class sortArrayInZeroAndOneOptimized {
 }
 
 /*
-* This is one pass solution using two pointer approach. In this we question we use single loop to solve question.
+* This is one pass solution using two pointer approach. In this question, we use single loop to solve question.
 * */
