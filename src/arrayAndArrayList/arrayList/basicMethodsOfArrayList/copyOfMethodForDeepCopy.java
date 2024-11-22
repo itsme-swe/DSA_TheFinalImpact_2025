@@ -2,7 +2,7 @@ package arrayAndArrayList.arrayList.basicMethodsOfArrayList;
 
 import java.util.Arrays;
 
-public class copyOfMethod {
+public class copyOfMethodForDeepCopy {
 
     public static void main(String[] args) {
 
@@ -46,7 +46,7 @@ public class copyOfMethod {
         // Output: Original Array: 12 4 6 8 10
 
         /*
-        * The difference b/w shallow copy and deep coy is in shallow copy ref. is passed and in deep copy the original copy of an array is created.
+        * The difference b/w shallow copy and deep copy is in shallow copy ref. is passed and in deep copy the original copy of an array is created.
         * If we change value in shallow copy concept, the value gets changed in an original array also but in deep copy the value of the original array does not change.
         * */
     }
