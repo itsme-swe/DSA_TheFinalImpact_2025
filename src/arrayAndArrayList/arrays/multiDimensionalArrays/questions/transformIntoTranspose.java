@@ -11,6 +11,7 @@ public class transformIntoTranspose {
         int[][] arr = { {1,2,3}, {4,5,6}, {7,8,9} };
         int m = arr.length;
 
+        System.out.println("Original Array");
         printArray(arr);
 
         for (int i = 0; i < m; i++) {
@@ -19,6 +20,7 @@ public class transformIntoTranspose {
             }
         }
 
+        System.out.println("Transpose Array");
         printArray(arr);
     }
 
@@ -43,3 +45,18 @@ public class transformIntoTranspose {
         a[j][i] = temp;
     }
 }
+
+/*
+
+Original Array
+1 2 3
+4 5 6
+7 8 9
+
+Transpose Array
+1 4 7
+2 5 8
+3 6 9
+
+
+*/
