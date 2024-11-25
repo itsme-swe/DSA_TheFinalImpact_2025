@@ -12,7 +12,7 @@ public class transposeOfMatrix {
         int m = arr.length;
         int n = arr[0].length;
 
-        //1️⃣ Taking an extra space
+        //1️⃣ Taking an extra space means storing inside new 2D Array
         int[][] trans = new int[n][m];
 
         for (int i = 0; i < n; i++) {
