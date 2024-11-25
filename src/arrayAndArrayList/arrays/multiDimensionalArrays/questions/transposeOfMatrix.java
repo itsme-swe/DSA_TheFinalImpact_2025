@@ -12,6 +12,7 @@ public class transposeOfMatrix {
         int m = arr.length;
         int n = arr[0].length;
 
+        //1️⃣ Taking an extra space
         int[][] trans = new int[n][m];
 
         for (int i = 0; i < n; i++) {
@@ -24,6 +25,18 @@ public class transposeOfMatrix {
         for (int[] row : trans) {
             for(int ele : row) {
                 System.out.print(ele + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        //2️⃣ Without taking an extra space
+        for (int j = 0; j < n; j++) {
+
+            for (int i = 0; i < m; i++) {
+
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
