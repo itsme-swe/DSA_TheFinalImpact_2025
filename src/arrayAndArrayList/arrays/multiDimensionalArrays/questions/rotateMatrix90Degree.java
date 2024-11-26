@@ -59,3 +59,23 @@ public class rotateMatrix90Degree {
         a[j][i] = temp;
     }
 }
+
+/*
+
+Original Array:
+1 2 3
+4 5 6
+7 8 9
+
+Array after transposing:
+1 4 7
+2 5 8
+3 6 9
+
+Rotated Array
+7 4 1
+8 5 2
+9 6 3
+
+
+*/
