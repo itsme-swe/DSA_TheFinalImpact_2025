@@ -43,7 +43,8 @@ public class generatePascalTriangle_LeetCode {
                 // The First and last element of each row is always 1
                 if (j == 0 || j == i) l.add(1);
                 else {
-                    l.add( ans.get(i-1).get(j) + ans.get(i-1).get(j-1));    // Calculate the value by adding the two elements from the previous row
+                    l.add( ans.get(i-1).get(j) + ans.get(i-1).get(j-1));    // Calculate the value
+                    // by adding the two elements from the previous row
                 }
             }
             ans.add(l);
