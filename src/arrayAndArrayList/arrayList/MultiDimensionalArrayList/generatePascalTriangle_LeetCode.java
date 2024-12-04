@@ -34,12 +34,16 @@ public class generatePascalTriangle_LeetCode {
     public static List<List<Integer>> generate(int n) {
 
         List<List<Integer>> ans = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            List<Integer> l = new ArrayList<>();
+        for (int i = 0; i < n; i++) {   // Loop to generate each row
+
+            List<Integer> l = new ArrayList<>();    // Create a new list for the current row
+
+            // Loop to fill elements in the current row
             for (int j = 0; j <= i; j++) {
+                // The First and last element of each row is always 1
                 if (j == 0 || j == i) l.add(1);
                 else {
-                    l.add( ans.get(i-1).get(j) + ans.get(i-1).get(j-1));
+                    l.add( ans.get(i-1).get(j) + ans.get(i-1).get(j-1));    // Calculate the value by adding the two elements from the previous row
                 }
             }
             ans.add(l);
