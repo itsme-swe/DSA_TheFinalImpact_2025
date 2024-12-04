@@ -50,6 +50,8 @@ public class generatePascalTriangle_LeetCode {
 }
 
 /*
+💥 Code Explanation : Yeh code n rows ke liye Pascal's Triangle generate karta hai aur usse print karta hai. Pascal's Triangle ek triangular array hai jisme har element apne upar wale row ke do elements ka sum hota hai, except pehla aur last element har row ka, jo hamesha 1 hote hain.
+
 🔸Output:
 1
 1 1
