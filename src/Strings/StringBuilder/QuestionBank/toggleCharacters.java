@@ -26,13 +26,15 @@ public class toggleCharacters {
             // Checking if each 'ch' is a capital letter then converting into a small letter. To make it small, add 32 into ascii
             if(ascii >= 65 && ascii <= 90) {
                 ascii += 32;
-                ch = (char)ascii;
-                sb.setCharAt(i,ch);
+
             } else if (ascii >= 97 && ascii <= 122) {   // Same to convert from small to capital
                 ascii -= 32;
-                ch = (char)ascii;
-                sb.setCharAt(i,ch);
+
             }
+            // These are the common steps in both if and else if statement so we can bring them out to save some lines of our code.
+            ch = (char)ascii;
+            sb.setCharAt(i,ch);
+
         }
         System.out.println(sb);
     }
